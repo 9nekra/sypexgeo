@@ -13,7 +13,7 @@ The data comes from a database and from service http://sypexgeo.net
 To get the latest version of SypexGeo simply require it in your `composer.json` file.
 
 ~~~
-"fearrr/sypexgeo": "0.1.*@dev"
+"fearrr/sypexgeo": "dev-master"
 ~~~
 
 You'll then need to run `composer install` to download it and have the autoloader updated.
