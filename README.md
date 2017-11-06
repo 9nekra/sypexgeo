@@ -7,8 +7,7 @@ The data comes from a database and from service http://sypexgeo.net
 
 ## Installation
 
-- [SypexGeo for Laravel 5 on Packagist](https://packagist.org/packages/scriptixru/sypexgeo)
-- [SypexGeo for Laravel 5 on GitHub](https://github.com/scriptixru/sypexgeo)
+- [Packagist](https://packagist.org/packages/fearrr/sypexgeo)
 
 To get the latest version of SypexGeo simply require it in your `composer.json` file.
 
