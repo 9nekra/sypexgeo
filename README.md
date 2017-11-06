@@ -1,4 +1,4 @@
-# GeoIP for Laravel 5.4
+# GeoIP for Laravel 5.4/5.5
 
 ----------
 
@@ -17,23 +17,17 @@ To get the latest version of SypexGeo simply require it in your `composer.json` 
 
 You'll then need to run `composer install` to download it and have the autoloader updated.
 
-Once GeoIP is installed you need to register the service provider with the application. Open up `config/app.php` and find the `providers` key.
-
+Once GeoIP is installed you need to register the service provider with the application. Open up `config/app.php` and find the `providers` key. If you use Laravel 5.5 autoload, skip this 2 steps.
 ~~~php
 'providers' => array(
-
     'Scriptixru\SypexGeo\SypexGeoServiceProvider',
-
 )
 ~~~
 
 GeoIP also ships with a facade which provides the static syntax for creating collections. You can register the facade in the `aliases` key of your `config/app.php` file.
-
 ~~~php
 'aliases' => array(
-
     'SypexGeo' => 'Scriptixru\SypexGeo\SypexGeoFacade',
-
 )
 ~~~
 
