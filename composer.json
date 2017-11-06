@@ -20,6 +20,11 @@
     "extra": {
         "branch-alias": {
             "dev-master": "0.1-dev"
+        },
+       "laravel": {
+            "providers": [
+                "Scriptixru\\SypexGeo\\SypexGeoServiceProvider"
+            ]
         }
     }
 }
